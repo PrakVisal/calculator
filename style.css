@@ -68,10 +68,4 @@ button {
         height:65px;
         font-size: 20px;
     }
-    #keys {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 10px;
-        padding: 20px;
-    }
 }
