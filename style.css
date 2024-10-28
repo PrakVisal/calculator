@@ -6,6 +6,7 @@
 }
 
 body {
+    background-color: rgb(81, 80, 80);
     margin: 0;
     display: flex;
     justify-content: center;
@@ -57,13 +58,20 @@ button {
 #keys button:active {
     background-color: rgba(255, 255, 255, 0.623);
 }
-@media (max-width:400px){
+@media (max-width:700px){
     #calculator {
         max-width: 350px;
     }
     button{
-        width: 50px;
-        height: 50px;
+        border: 1px solid;
+        width: 65px;
+        height:65px;
         font-size: 20px;
+    }
+    #keys {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        padding: 20px;
     }
 }

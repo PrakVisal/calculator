@@ -13,8 +13,10 @@ function calculate() {
             display.value = 'B sl o❤️';
         }else if(display.value == 16){
             display.value = "Ah Black🌚"
+        }else if(display.value == 1){
+            display.value = "I miss you❤️"
         }
     } catch (error) {
-        display.value = "Error";
+        display.value = "Juch ot mer";
     }
 }
